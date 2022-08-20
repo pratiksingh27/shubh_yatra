@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
-// import styled from 'styled-components';
-// import logo from '../assest/logo.png';
+
+import { Link } from 'react-router-dom';
 
 export default function Menubar() {
   const [nav, setNav] = useState(false)
@@ -13,11 +13,11 @@ export default function Menubar() {
     <div className='flex  justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <h1 className='w-full text-2xl font-bold text-[#00df9a]'>Shubh_Yatra</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4'>Home</li>
-        <li className='p-4'>About</li>
-        <li className='p-4'>Gallery</li>
-        <li className='p-4'>Services</li>
-        <li className='p-4'>Contact</li>
+        <li className='p-4'><Link to="/first">Home</Link></li>
+        <li className='p-4'><Link to="/about">About</Link></li>
+        <li className='p-4'><Link to="/gallery">Gallery</Link></li>
+        <li className='p-4'><Link to="/services">Services</Link></li>
+        <li className='p-4'><Link to="/contact">Contact</Link></li>
       </ul>
       <div onClick={handleNav} className ='block md:hidden'>
         {!nav ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20} />}
