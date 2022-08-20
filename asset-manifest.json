@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shubh_yatra/static/css/main.e83ba352.css",
+    "main.js": "/shubh_yatra/static/js/main.db41907a.js",
+    "static/js/787.407b9cf4.chunk.js": "/shubh_yatra/static/js/787.407b9cf4.chunk.js",
+    "index.html": "/shubh_yatra/index.html",
+    "main.e83ba352.css.map": "/shubh_yatra/static/css/main.e83ba352.css.map",
+    "main.db41907a.js.map": "/shubh_yatra/static/js/main.db41907a.js.map",
+    "787.407b9cf4.chunk.js.map": "/shubh_yatra/static/js/787.407b9cf4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e83ba352.css",
+    "static/js/main.db41907a.js"
+  ]
+}
