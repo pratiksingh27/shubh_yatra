@@ -11,7 +11,7 @@ export default function Menubar() {
   }
   return (
     <div className='flex  justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Shubh_Yatra</h1>
+      <h1 className='w-full text-2xl font-bold text-[#00df9a]'>Shubh_Yatra</h1>
       <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
         <li className='p-4'>About</li>
