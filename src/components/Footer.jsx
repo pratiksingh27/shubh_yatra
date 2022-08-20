@@ -1,8 +1,51 @@
-import React from 'react'
+import React from 'react';
+import {
+  FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare
+} from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <div>
+    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-8 text-gray-300'>
+      <div>
+      <h1 className='w-full text-2xl font-bold text-[#00df9a]'>Shubh_Yatra</h1>
+      <p className='py-4'> Nulla possimus illum, ut sequi facere saepe distinctio impedit iste a provident, nihil vitae cum nemo quam, odio placeat at velit veniam molestiae? Iusto, fugit ducimus.</p>
+      <div className='flex md:w-[75%] my-6 justify-between'>
+        <FaFacebookSquare size={25} />
+        <FaInstagramSquare size={25} />
+        <FaLinkedin size={25} />
+        <FaTwitterSquare size={25} />
+      </div>
+      </div>
+
+      {/* footer quick links */}
+      <div className='col-spam-2 flex justify-between  py-4 mt-6'>
+          <div>
+            <h4 className='font-medium text-gray-400'>Legal</h4>
+            <ul>
+              <li className='py-2 text-sm'>Policy</li>
+              <li className='py-2 text-sm'>Terms</li>
+              <li className='py-2 text-sm'>Claims</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-medium text-gray-400'>Support</h4>
+            <ul>
+              <li className='py-2 text-sm'>Documentation</li>
+              <li className='py-2 text-sm'>Pricing</li>
+              <li className='py-2 text-sm'>Guides</li>
+              <li className='py-2 text-sm'>API status</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-medium text-gray-400'>Company</h4>
+            <ul>
+              <li className='py-2 text-sm'>About Us</li>
+              <li className='py-2 text-sm'>Gallery</li>
+              <li className='py-2 text-sm'>Tour location</li>
+              <li className='py-2 text-sm'>Contact us</li>
+            </ul>
+          </div>
+      </div>
       
     </div>
   )
