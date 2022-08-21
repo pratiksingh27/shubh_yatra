@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from 'react-hook-form';
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import form from './assets/form.png'
 
 export default function Registration() {
   const { register, handleSubmit, errors } =useForm();
@@ -14,8 +15,8 @@ export default function Registration() {
     <>
     <pre className="text-white">{ JSON.stringify(userInfo, undefined, 4)}</pre>
       <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2">
-        <div>
-          <img src="" alt="" />
+        <div className="my-auto justify-center flex">
+          <img className="grid align-middle mx-auto justify-center" src={form} alt="" />
         </div>
         <div>
           
