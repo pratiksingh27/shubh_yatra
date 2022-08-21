@@ -31,7 +31,7 @@ export default function App() {
     <BrowserRouter>
     <Menubar />
       <Routes>
-        <Route path='/first' element={<First />}/> 
+        <Route path='/' element={<First />}/> 
         <Route path='/about' element={<About />}/>
         <Route path='/gallery' element={<Gallery />}/>
         <Route path='/services' element={<Services />}/>

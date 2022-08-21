@@ -1,10 +1,14 @@
-import React from 'react';
-import Footer from './components/Footer';
+import React from 'react'
+import Footer from './components/Footer'
 
-export default function gallery() {
+const gallery = () => {
   return (
     <div>
-      <Footer />
+      <Footer/>
     </div>
   )
 }
+
+export default gallery
+
+
