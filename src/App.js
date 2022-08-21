@@ -21,6 +21,8 @@ import Gallery from './gallery';
 import Services from './services';
 // import COntact from './contact';
 import Contact from './contact';
+import Registration from './Registration';
+import LogIn from './LogIn';
 // import Contact from './Contact';
 
 
@@ -36,6 +38,8 @@ export default function App() {
         <Route path='/gallery' element={<Gallery />}/>
         <Route path='/services' element={<Services />}/>
         <Route path='/contact' element={<Contact />}/>
+        <Route path='/registration' element={<Registration />}/>
+        <Route path='/login' element ={<LogIn/>} />
       </Routes>
     </BrowserRouter>
 
