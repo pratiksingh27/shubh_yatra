@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shubh_yatra/static/css/main.2785079d.css",
-    "main.js": "/shubh_yatra/static/js/main.bdfe8f01.js",
+    "main.css": "/shubh_yatra/static/css/main.c46f5ac7.css",
+    "main.js": "/shubh_yatra/static/js/main.505a2674.js",
     "static/js/787.407b9cf4.chunk.js": "/shubh_yatra/static/js/787.407b9cf4.chunk.js",
     "static/media/hero.png": "/shubh_yatra/static/media/hero.decd6e523fe133c3c563.png",
     "index.html": "/shubh_yatra/index.html",
-    "main.2785079d.css.map": "/shubh_yatra/static/css/main.2785079d.css.map",
-    "main.bdfe8f01.js.map": "/shubh_yatra/static/js/main.bdfe8f01.js.map",
+    "main.c46f5ac7.css.map": "/shubh_yatra/static/css/main.c46f5ac7.css.map",
+    "main.505a2674.js.map": "/shubh_yatra/static/js/main.505a2674.js.map",
     "787.407b9cf4.chunk.js.map": "/shubh_yatra/static/js/787.407b9cf4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2785079d.css",
-    "static/js/main.bdfe8f01.js"
+    "static/css/main.c46f5ac7.css",
+    "static/js/main.505a2674.js"
   ]
 }
