@@ -28,7 +28,7 @@ export default function Service() {
             <h2 className='font-bold text-xl text-center py-4'>Find the best</h2>
             <p className='text-center'>Find the best hotels and places to visit near you in a single click</p>
             <a className='font-medium mx-auto text-black' href='https://pratiksingh27.github.io/traveladvice/' target="_blank" rel="noreferrer">
-              <button className='text-center bg-[#00df9a] w-[200px] rounded-md font-medium my-4 py-1 mx-auto text-black'>Explore</button>
+              <button className='text-center bg-[#00df9a] w-[200px] rounded-md font-medium my-4 py-1 mx-auto text-black hover:opacity-80'>Explore</button>
               </a>
           </div>
        </div>
