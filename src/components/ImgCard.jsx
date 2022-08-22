@@ -9,7 +9,7 @@ export default function ImgCard({image}) {
           <img src={image.webformatURL} alt="" className='w-full h-auto'/>
         </a>
         <p className='m-4 md:text-lg'>Image by:<strong>{image.user}</strong></p>
-        <p className='m-4 md:text-lg'>Iags:<strong>{image.tags}</strong></p>
+        <p className='m-4 md:text-lg'>Tags:<strong>{image.tags}</strong></p>
         <p className='m-4 md:text-lg'>Resolution:<strong>{image.imageHeight} X {image.imageWidth}</strong></p>
       </div>
     </>

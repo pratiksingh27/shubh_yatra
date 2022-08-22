@@ -15,7 +15,7 @@ export default function Heroo() {
           <Typed className='md:text-2xl sm:text-1.5xl text-xl font-bold pl-2' strings={[' Best deal','Best services', 'Best package']} typeSpeed={40} backSpeed={40} loop/>
         </div>
         <p className='md:text-xl sm:text-md text-gray-400 pt-2'>For exciting offer and discount, Register now</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black'><Link to='/registration'>Register Now</Link></button>
+        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black hover:opacity-70 hover:scale-105 duration-300'><Link to='/registration'>Register Now</Link></button>
       </div>
       
     </div>

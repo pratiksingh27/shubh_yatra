@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import hero from '../assets/hero.png';
+import us from '../assets/us.png';
 import service1 from '../assets/service1.png';
 import service2 from '../assets/service2.png';
 import {
@@ -26,7 +26,7 @@ export default function OurCenter() {
     <>
     <div className='bg-white w-full py-16'> 
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-    <img className='w-[90%] md:h-[100%] mx-auto' src={hero} alt="/" />
+    <img className='w-[90%] md:h-[100%] mx-auto' src={us} alt="/" />
     <form className='lg:grid-cols-3 py-16 shadow-xl w-full px-8 md:mx-auto md:w-full rounded-lg' ref={form} onSubmit={sendEmail}>
       <h1 className='font-bold'>Ask Us A Question</h1>
       <div className='py-4'>

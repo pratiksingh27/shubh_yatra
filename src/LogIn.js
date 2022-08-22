@@ -35,7 +35,7 @@ export default function LogIn() {
             </div>
           {/* button part */}
             <input
-              className="bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black"
+              className="bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black hover:opacity-70 hover:scale-105 duration-300"
               type="submit"
               value="LogIn"
             />

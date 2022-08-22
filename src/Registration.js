@@ -65,14 +65,14 @@ export default function Registration() {
             </div>
 
             <input
-              className="bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black"
+              className="bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black hover:opacity-70 hover:scale-105 duration-300"
               type="submit"
               value="Registre Now"
             />
             
           </form>
           {/* to redirect to log in  */}
-          <p>If already have account than <button className="border-b border-blue-500 text-blue-500"><Link to='/LogIn'>Sign-In</Link></button></p>
+          <p>If already have account than <button className="border-b border-blue-500 text-blue-500 "><Link to='/LogIn'>Sign-In</Link></button></p>
         </div>
       </div>
     </>
