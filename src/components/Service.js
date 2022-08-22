@@ -1,6 +1,7 @@
 import React from 'react';
 import service1 from '../assets/service1.png';
 import service2 from '../assets/service2.png';
+// import { Link } from 'react-router-dom';
 // import service1 from '../assets/service1.png';
 
 export default function Service() {
@@ -12,7 +13,9 @@ export default function Service() {
             <img className='w-10 mx-auto mt-[-2rem] bg-white' src={service1} alt="" />
             <h2 className='font-bold text-xl text-center py-4'>Get Best Deals</h2>
             <p className='text-center'>Pay through our application and save thousands and get amazing rewards</p>
-            <button className='text-center bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black'>Explore</button>
+            <a className='font-medium mx-auto text-black' href='https://pratiksingh27.github.io/traveladvice/' target="_blank" rel="noreferrer">
+              <button className='text-center bg-[#00df9a] w-[200px] rounded-md font-medium my-4 py-1 mx-auto text-black'>Explore</button>
+              </a>
           </div>
           <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-10 mx-auto mt-[-2rem] bg-gray' src={service2} alt="" />
@@ -24,7 +27,9 @@ export default function Service() {
             <img className='w-10 mx-auto mt-[-2rem] bg-white' src={service1} alt="" />
             <h2 className='font-bold text-xl text-center py-4'>Find the best</h2>
             <p className='text-center'>Find the best hotels and places to visit near you in a single click</p>
-            <button className='text-center bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto  py-1 text-black'>Explore</button>
+            <a className='font-medium mx-auto text-black' href='https://pratiksingh27.github.io/traveladvice/' target="_blank" rel="noreferrer">
+              <button className='text-center bg-[#00df9a] w-[200px] rounded-md font-medium my-4 py-1 mx-auto text-black'>Explore</button>
+              </a>
           </div>
        </div>
     </div>
