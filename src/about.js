@@ -8,9 +8,6 @@ export default function about() {
     <div>
       <Aboutus2 />
       <Testimony />
-      {/* <div className='w-full bg-white pb-8 px-4'>
-      
-      </div> */}
       <Footer />
     </div>
   );

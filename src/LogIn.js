@@ -15,9 +15,8 @@ export default function LogIn() {
             className="lg:grid-cols-3 py-16 shadow-xl w-full px-8 md:mx-auto md:w-full rounded-lg">
             <h1 className="font-bold text-3xl md:2xl">Sign In</h1>
             
+            {/* Email part */}
             <div className="py-8">
-              {/* <label>Email</label> */}
-              {/* <br></br> */}
               <input
                 className="p-2 flex w-50% rounded-md text-black mr-2 md:w-full w-full"
                 type="email"
@@ -25,10 +24,8 @@ export default function LogIn() {
                 placeholder="Enter Your Email"
               /><hr></hr>
             </div>
-            
+            {/* password part */}
             <div className="py-4">
-              {/* <label>Name</label> */}
-              {/* <br></br> */}
               <input
                 className="p-2 flex w- rounded-md text-black mr-2 md:w-full w-full"
                 type="password"
@@ -36,16 +33,7 @@ export default function LogIn() {
                 placeholder="Your Password" 
               /><hr></hr>
             </div>
-            
-            {/* <div className="py-8">
-              <label>Message</label>
-              <br></br>
-              <textarea
-                className="p-2 outline flex w-50% rounded-md text-black mr-2 md:w-full w-full"
-                name="message"
-                placeholder="Write us a message"
-              />
-            </div> */}
+          {/* button part */}
             <input
               className="bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black"
               type="submit"

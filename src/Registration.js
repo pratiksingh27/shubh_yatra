@@ -24,8 +24,6 @@ export default function Registration() {
             className="lg:grid-cols-3 py-16 shadow-xl w-full px-8 md:mx-auto md:w-full rounded-lg">
             <h1 className="font-bold text-3xl md:2xl">Sign Up</h1>
             <div className="py-4">
-              {/* <label>Name</label> */}
-              {/* <br></br> */}
               <input
                 className="p-2 flex w- rounded-md text-black mr-2 md:w-full w-full"
                 type="text"
@@ -34,8 +32,6 @@ export default function Registration() {
               /><hr></hr>
             </div>
             <div className="py-8">
-              {/* <label>Email</label> */}
-              {/* <br></br> */}
               <input
                 className="p-2 flex w-50% rounded-md text-black mr-2 md:w-full w-full"
                 type="email"
@@ -44,8 +40,6 @@ export default function Registration() {
               /><hr></hr>
             </div>
             <div className="py-4">
-              {/* <label></label> */}
-              {/* <br></br> */}
               <input
                 className="p-2 flex w- rounded-md text-black mr-2 md:w-full w-full"
                 type="number"
@@ -54,8 +48,6 @@ export default function Registration() {
               /><hr></hr>
             </div>
             <div className="py-4">
-              {/* <label>Name</label> */}
-              {/* <br></br> */}
               <input
                 className="p-2 flex w- rounded-md text-black mr-2 md:w-full w-full"
                 type="password"
@@ -64,8 +56,6 @@ export default function Registration() {
               /><hr></hr>
             </div>
             <div className="py-4">
-              {/* <label>Name</label> */}
-              {/* <br></br> */}
               <input
                 className="p-2 flex w- rounded-md text-black mr-2 md:w-full w-full"
                 type="password"
@@ -73,15 +63,7 @@ export default function Registration() {
                 placeholder="Confirm Your Password" 
               /><hr></hr>
             </div>
-            {/* <div className="py-8">
-              <label>Message</label>
-              <br></br>
-              <textarea
-                className="p-2 outline flex w-50% rounded-md text-black mr-2 md:w-full w-full"
-                name="message"
-                placeholder="Write us a message"
-              />
-            </div> */}
+
             <input
               className="bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black"
               type="submit"
@@ -89,6 +71,7 @@ export default function Registration() {
             />
             
           </form>
+          {/* to redirect to log in  */}
           <p>If already have account than <button className="border-b border-blue-500 text-blue-500"><Link to='/LogIn'>Sign-In</Link></button></p>
         </div>
       </div>

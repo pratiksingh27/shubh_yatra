@@ -1,13 +1,12 @@
-// import React from 'react'
-import Footer from './components/Footer'
 import React from 'react'
+import Footer from './components/Footer'
 import GridGallery from './components/GridGallery'
 
 
 export default function Gallery() {
   const images = [
-    "./hero.png",
-    "./logo.png",
+    <img src="./hero.png" alt="" /> ,
+    <img src="./logo.png" alt="" /> ,
     "./logo.png",
     "./logo.png",
     "./logo.png",
