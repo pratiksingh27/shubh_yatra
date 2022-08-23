@@ -7,7 +7,7 @@ export default function Aboutus2() {
     <div className='w-full bg-white py-16 px-4 '>
       <h1 className='mx-auto text-bold text-[#00df9a] text-center pb-4 md:text-4xl sm:text-3xl text-3xl'>About us</h1><hr className='w-[15%] mx-auto '></hr>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 py-8'>
-        <img className='w-[90%] md:h-[80%] my-auto mx-auto' src={work} alt="/" />
+        <img className='w-[60%] h-60% md:w-[90%] md:h-[80%] my-auto mx-auto' src={work} alt="/" />
         <div className='flex flex-col justify-center pt-4 py-8'>
           <h1 className='text-bold md:text-2xl sm:text-xl text-xl'>Know what we do...</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur dignissimos provident? Minus, reiciendis magnam consequatur, expedita dolores, beatae illum repellendus aspernatur aliquid numquam error.</p>
