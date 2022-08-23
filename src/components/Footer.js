@@ -2,6 +2,7 @@ import React from 'react';
 import {
   FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare
 } from 'react-icons/fa';
+import { Link} from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -39,10 +40,10 @@ export default function Footer() {
           <div>
             <h4 className='font-medium text-gray-400'>Company</h4>
             <ul>
-              <li className='py-2 text-sm'>About Us</li>
-              <li className='py-2 text-sm'>Gallery</li>
-              <li className='py-2 text-sm'>Tour location</li>
-              <li className='py-2 text-sm'>Contact us</li>
+              <li className='py-2 text-sm'><Link to="/about">About Us</Link></li>
+              <li className='py-2 text-sm'><Link to="/gallery">Gallery</Link></li>
+              <li className='py-2 text-sm'><a className=' mx-auto ' href='https://pratiksingh27.github.io/traveladvice/' target="_blank" rel="noreferrer">Tour location</a></li>
+              <li className='py-2 text-sm'><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
       </div>

@@ -1,10 +1,10 @@
 import React from 'react';
+import Menubar from './components/Menubar';
 // import './App.css';
 // import Aboutus from './components/Aboutus';
 // import Footer from './components/Footer';
 // import Heroo from './components/Heroo';
 // import ScrollTop from './components/ScrollTop';
-import Menubar from './components/Menubar';
 // import NewsLetter from './components/NewsLetter';
 // import OurCenter from './components/OurCenter';
 // import Service from './components/Service';
@@ -15,15 +15,14 @@ import Menubar from './components/Menubar';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // import Services from './Service'; //services because service is already used
+// import Contact from './Contact';
 import About from './about';
 import First from './first';
 import Gallery from './gallery';
 import Services from './services';
-// import COntact from './contact';
 import Contact from './contact';
 import Registration from './Registration';
 import LogIn from './LogIn';
-// import Contact from './Contact';
 
 
 export default function App() {
