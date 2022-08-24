@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shubh_yatra/static/css/main.c5e76d29.css",
-    "main.js": "/shubh_yatra/static/js/main.4ea83058.js",
+    "main.css": "/shubh_yatra/static/css/main.5ccbd6dd.css",
+    "main.js": "/shubh_yatra/static/js/main.64972693.js",
     "static/js/787.407b9cf4.chunk.js": "/shubh_yatra/static/js/787.407b9cf4.chunk.js",
     "static/media/amico.png": "/shubh_yatra/static/media/amico.64f8d762c65636c0177e.png",
     "static/media/us.png": "/shubh_yatra/static/media/us.fadbe6a93619d0152049.png",
@@ -9,12 +9,12 @@
     "static/media/form.png": "/shubh_yatra/static/media/form.2629e22c848fac432097.png",
     "static/media/user2.jpg": "/shubh_yatra/static/media/user2.0d20d0f69481da48ef11.jpg",
     "index.html": "/shubh_yatra/index.html",
-    "main.c5e76d29.css.map": "/shubh_yatra/static/css/main.c5e76d29.css.map",
-    "main.4ea83058.js.map": "/shubh_yatra/static/js/main.4ea83058.js.map",
+    "main.5ccbd6dd.css.map": "/shubh_yatra/static/css/main.5ccbd6dd.css.map",
+    "main.64972693.js.map": "/shubh_yatra/static/js/main.64972693.js.map",
     "787.407b9cf4.chunk.js.map": "/shubh_yatra/static/js/787.407b9cf4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5e76d29.css",
-    "static/js/main.4ea83058.js"
+    "static/css/main.5ccbd6dd.css",
+    "static/js/main.64972693.js"
   ]
 }
