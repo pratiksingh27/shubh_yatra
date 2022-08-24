@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import Menubar from './components/Menubar';
 // import './App.css';
 // import Aboutus from './components/Aboutus';
@@ -33,14 +34,16 @@ export default function App() {
     <Menubar />
       <Routes>
         <Route path='/' element={<First />}/> 
-        <Route path='/about' element={<About />}/>
-        <Route path='/gallery' element={<Gallery />}/>
-        <Route path='/services' element={<Services />}/>
-        <Route path='/contact' element={<Contact />}/>
+        <Route path='about' element={<About />}/>
+        <Route path='gallery' element={<Gallery />}/>
+        <Route path='services' element={<Services />}/>
+        <Route path='contact' element={<Contact />}/>
         <Route path='/registration' element={<Registration />}/>
         <Route path='/login' element ={<LogIn/>} />
+        {/* <Route path="*" element ={<Error />}/> */}
       </Routes>
     </BrowserRouter>
+    {/* <First /> */}
 
     {/* components link */}
   {/* <ScrollTop /> */}
