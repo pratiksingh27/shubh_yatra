@@ -12,7 +12,7 @@ export default function Menubar() {
   }
   return (
     <div className='flex  justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-      <h1 className='w-full text-2xl font-bold text-[#00df9a]'><a href='/'>Shubh_Yatra</a></h1>
+      <h1 className='w-full text-2xl font-bold text-[#B00E15]'><a href='/'>Shubh_Yatra</a></h1>
       <ul className='hidden md:flex'>
         <li className='p-4'><NavLink to="/">Home</NavLink></li>
         <li className='p-4'><NavLink to="/about">About</NavLink></li>
@@ -25,7 +25,7 @@ export default function Menubar() {
         {/* <AiOutlineMenu size={20} /> */}
       </div>
       <div className={nav ? 'fixed left-0 top-0 w-[50%] border-r h-full border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out'}>
-      <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>Shubh_Yatra</h1>
+      <h1 className='w-full text-3xl font-bold text-[#B00E15] m-4'>Shubh_Yatra</h1>
         <ul className='pt-0 uppercase p-4'>
         <li className='p-4 border-b border-gray-600'><NavLink to="/">Home</NavLink></li>
         <li className='p-4 border-b border-gray-600'><NavLink to="/about">About</NavLink></li>

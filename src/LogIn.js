@@ -24,7 +24,7 @@ export default function LogIn() {
   return (
     <>
 
-      <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2">
+      <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2 md:rounded-lg">
         <div>
           <img className='h-[400px] justify-center mx-auto' src={form} alt="" />
         </div>
@@ -58,7 +58,7 @@ export default function LogIn() {
             </div>
           {/* button part */}
             <input
-              className="bg-[#00df9a] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-black hover:opacity-70 hover:scale-105 duration-300"
+              className="bg-[#B00E15] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-white hover:opacity-70 hover:scale-105 duration-300"
               type="submit"
               value="LogIn"
             />

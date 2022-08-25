@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-8 text-gray-300'>
       <div>
-      <h1 className='w-full text-2xl font-bold text-[#00df9a]'>Shubh_Yatra</h1>
+      <h1 className='w-full text-2xl font-bold text-[#B00E15]'>Shubh_Yatra</h1>
       <p className='py-4'> Nulla possimus illum, ut sequi facere saepe distinctio impedit iste a provident, nihil vitae cum nemo quam, odio placeat at velit veniam molestiae? Iusto, fugit ducimus.</p>
       <div className='flex md:w-[75%] my-6 justify-between'>
         <FaFacebookSquare size={25} />
