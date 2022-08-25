@@ -31,15 +31,15 @@ export default function OurCenter() {
       <h1 className='font-bold'>Ask Us A Question</h1>
       <div className='py-4'>
       <label>Name</label><br></br>
-      <input className='p-2 outline flex w- rounded-md text-black mr-2 md:w-full w-full' type="text" name="user_name" placeholder='Enter your Name' />
+      <input className='p-2 outline flex w- rounded-md text-black mr-2 md:w-full w-full' type="text" name="user_name" placeholder='Enter your Name' required/>
       </div>
       <div className='py-4'>
       <label>Email</label><br></br>
-      <input className='p-2 outline flex w-50% rounded-md text-black mr-2 md:w-full w-full' type="email" name="user_email" placeholder='Enter Your Email'/>
+      <input className='p-2 outline flex w-50% rounded-md text-black mr-2 md:w-full w-full' type="email" name="user_email" placeholder='Enter Your Email' required/>
       </div>
       <div className='py-4'>
       <label>Message</label><br></br>
-      <textarea className='p-2 outline flex w-50% rounded-md text-black mr-2 md:w-full w-full' name="message" placeholder='Write us a message'/>
+      <textarea className='p-2 outline flex w-50% rounded-md text-black mr-2 md:w-full w-full' name="message" placeholder='Write us a message' required/>
       </div>
       <input className='bg-[#B00E15] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-white' type="submit" value="Send" />
     </form>

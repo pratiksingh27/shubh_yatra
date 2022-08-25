@@ -32,8 +32,9 @@ export default function App() {
   <div className='App'>
     <BrowserRouter>
     <Menubar />
+    {/* <First /> */}
       <Routes>
-        <Route path='/' element={<First />}/> 
+        <Route path='/shubh_yatra' element={<First />}/> 
         <Route path='/about' element={<About />}/>
         <Route path='/gallery' element={<Gallery />}/>
         <Route path='/services' element={<Services />}/>
@@ -43,18 +44,6 @@ export default function App() {
         {/* <Route path="*" element ={<Error />}/> */}
       </Routes>
     </BrowserRouter>
-    {/* <First /> */}
-
-    {/* components link */}
-  {/* <ScrollTop /> */}
-  {/* <Menubar /> */}
-  {/* <Heroo />
-  <Aboutus />
-  <NewsLetter />
-  <Service /> */}
-  {/* <Testimony />
-  <OurCenter /> */}
-  {/* <Footer /> */}
   
   </div>
   );

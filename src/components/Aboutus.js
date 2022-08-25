@@ -1,5 +1,6 @@
 import React from 'react';
-import work from '../assets/Work.png'
+import work from '../assets/Work.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,7 +13,7 @@ export default function Aboutus() {
         <div className='flex flex-col justify-center pt-4'>
           <h1 className='text-bold md:text-2xl sm:text-xl text-xl'>Know what we do...</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur dignissimos provident? Minus, reiciendis magnam consequatur, expedita dolores, beatae illum repellendus aspernatur aliquid numquam error.</p>
-          <button className='bg-black w-[200px] rounded-md font-medium my-4 mx-auto md:mx-0 py-1 text-white'>Read More</button>
+          <button className='bg-black w-[200px] rounded-md font-medium my-4 mx-auto md:mx-0 py-1 text-white'><Link to="/about">Read More</Link></button>
         </div>
       </div>
     </div>

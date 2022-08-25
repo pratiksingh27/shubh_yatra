@@ -21,7 +21,9 @@ export default function Service() {
             <img className='w-10 mx-auto mt-[-2rem] bg-gray' src={service2} alt="" />
             <h2 className='font-bold text-xl text-center py-4'>Covid Safe</h2>
             <p className='text-center'>We have all the hotels that have all the precaution for a covid safe environment and also have a healthy staff.</p>
+            <a className='font-medium mx-auto text-black' href='https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html' target="_blank" rel="noreferrer">
             <button className='text-center bg-[#B00E15] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-white'>Explore</button>
+            </a>
           </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-10 mx-auto mt-[-2rem] bg-white' src={service1} alt="" />

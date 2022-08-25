@@ -14,6 +14,7 @@ export default function Registration() {
     mode: "onBlur",
   });
 
+  
   const password = useRef({});
   password.current = watch("password", "");
   const [userInfo, setUserInfo]=useState();
@@ -34,6 +35,7 @@ const [user, setUser] = useState({
 
       setUser({...user, [name]:value});
   }
+
   
 //   const handleClick =() =>{
     
@@ -44,7 +46,7 @@ const [user, setUser] = useState({
 
   return (
     <>
-    <pre className="text-white text-center">{JSON.stringify(userInfo, undefined, 2)}
+    <pre className="text-white text-center mt-24">{JSON.stringify(userInfo, undefined, 2)}
     </pre>
       <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2 md:rounded-lg mt-24">
         <div className="my-auto justify-center flex">
