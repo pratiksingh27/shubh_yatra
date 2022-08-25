@@ -6,7 +6,7 @@ import service2 from '../assets/service2.png';
 
 export default function Service() {
   return (
-    <div className='w-full py-16 px-4 bg-white'>
+    <div className='w-full py-16 px-4 bg-white mt-24'>
       <h1 className='mx-auto text-bold text-[#00df9a] text-center pb-10 md:text-4xl sm:text-3xl text-2xl'>Services</h1>
        <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>

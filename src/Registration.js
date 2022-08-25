@@ -46,7 +46,7 @@ const [user, setUser] = useState({
     <>
     <pre className="text-white text-center">{JSON.stringify(userInfo, undefined, 2)}
     </pre>
-      <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2 md:rounded-lg">
+      <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2 md:rounded-lg mt-24">
         <div className="my-auto justify-center flex">
           <img className="grid align-middle mx-auto justify-center" src={form} alt="" />
         </div>

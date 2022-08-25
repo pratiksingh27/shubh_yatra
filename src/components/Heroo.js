@@ -6,7 +6,7 @@ import Typed from 'react-typed';
 export default function Heroo() {
   
   return (
-    <div className='text-white'>
+    <div className='text-white mt-24'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex text-center flex-col justify-center'>
         <p className='text-[#B00E15] font-bold p-2'>TRAVEL WITH FUN &#9992;</p>
         <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-2'>Safar Apka, Khayal humara</h1>

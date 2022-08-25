@@ -24,7 +24,7 @@ export default function LogIn() {
   return (
     <>
 
-      <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2 md:rounded-lg">
+      <div className="bg-white max-w-[1240px] mx-auto my-8 grid md:grid-cols-2 md:rounded-lg mt-24">
         <div>
           <img className='h-[400px] justify-center mx-auto' src={form} alt="" />
         </div>

@@ -24,7 +24,7 @@ export default function OurCenter() {
   };
   return (
     <>
-    <div className='bg-white w-full py-16'> 
+    <div className='bg-white w-full py-16 mt-24'> 
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
     <img className='w-[90%] md:h-[100%] mx-auto' src={us} alt="/" />
     <form className='lg:grid-cols-3 py-16 shadow-xl w-full px-8 md:mx-auto md:w-full rounded-lg' ref={form} onSubmit={sendEmail}>
