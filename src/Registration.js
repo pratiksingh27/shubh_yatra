@@ -122,7 +122,6 @@ const [user, setUser] = useState({
               className="bg-[#B00E15] w-[200px] rounded-md font-medium my-4 mx-auto py-1 text-white hover:opacity-70 hover:scale-105 duration-300"
               type="submit"
               value="Registre Now"
-              // onClick={handleClick}
             />
             
           </form>
